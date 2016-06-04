@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:autoLink="1" android:padding="20dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/patterntext" />
+    <LinearLayout android:gravity="10" android:id="@id/LinearLayout01" android:layout_width="-2" android:layout_height="-2">
+        <TextView android:layout_width="-2" android:layout_height="-2" android:text="Corners in width direction:" />
+        <Spinner android:entries="@array/chesssizes" android:id="@id/rows" android:saveEnabled="true" android:layout_width="-1" android:layout_height="-2" android:prompt="@string/chesspromptx" />
+    </LinearLayout>
+    <LinearLayout android:gravity="10" android:id="@id/LinearLayout01" android:layout_width="-2" android:layout_height="-2">
+        <TextView android:layout_width="-2" android:layout_height="-2" android:text="Corners in height direction:" />
+        <Spinner android:entries="@array/chesssizes" android:id="@id/cols" android:saveEnabled="true" android:layout_width="-1" android:layout_height="-2" android:prompt="@string/chessprompty" />
+    </LinearLayout>
+</LinearLayout>

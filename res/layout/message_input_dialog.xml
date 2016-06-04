@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/message_enter_dialog" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:id="@id/inputMessageTitleInReceiveMode" android:layout_width="-1" android:layout_height="-2" android:text="
+Enter Message ( English Only )" />
+    <EditText android:id="@id/editMessageInRceiveMode" android:layout_width="-1" android:layout_height="-2" android:hint="Enter Message" />
+</LinearLayout>

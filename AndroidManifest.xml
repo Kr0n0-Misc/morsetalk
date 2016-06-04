@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:"http://schemas.android.com/apk/res/android" android:versionCode="21" android:versionName="2.3.0" android:installLocation="auto" package="com.blueta.morsetransmitter">
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <permission android:name="android.permission.FLASHLIGHT" android:protectionLevel="UNKNOWN_DATA_0x0" android:permissionGroup="android.permission-group.HARDWARE_CONTROLS" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+    <application android:label="@string/app_name" android:icon="@drawable/ice_morse_talk">
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name=".MorseTrans" android:screenOrientation="portrait" android:windowSoftInputMode="12">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="Lcd Test" android:name=".LcdBlinkTest" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:label=".MorseTransToLcd" android:name=".MorseTransToLcd" android:screenOrientation="portrait" />
+        <activity android:label="Setting" android:name=".MorseTransPreference" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="CofigFlashLightType" android:name=".CofigFlashLightType" android:screenOrientation="portrait" />
+        <activity android:label="MorseDecodeMain" android:name=".MorseDecodeMain" />
+        <service android:name=".MorseTranService" android:enabled="true" />
+    </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+</manifest>

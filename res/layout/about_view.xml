@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:orientation="1" android:id="@id/aboutscrollview" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+            <TextView android:textStyle="1" android:textColor="#ffffff" android:paddingLeft="15px" android:paddingTop="15px" android:layout_width="-1" android:layout_height="-2" android:text="About: " />
+            <TextView android:textColor="#ffffffff" android:layout_gravity="10" android:paddingLeft="15px" android:layout_width="-1" android:layout_height="-2" android:text="You can send and receive message using flash light and camera with this app.
+
+It could help you to communicate with others where mobile phone signal is off line due to disaster or other reason.
+
+This program convert text to morse code and transmit it through LED flash or LCD display. Also it receive morse code through camera and interpret it.
+
+The main purpose of this application is helping people who meet with a disaster to send emergency message
+
+Support Language: English only
+" />
+            <TextView android:textColor="#ffffffff" android:layout_gravity="10" android:paddingLeft="15px" android:layout_width="-1" android:layout_height="-2" android:text="This program manipulates the camera LED on the phones.
+" />
+            <TextView android:textColor="#ffffff" android:layout_gravity="10" android:paddingLeft="15px" android:layout_width="-1" android:layout_height="-2" android:text="Designed and implemented by Sungho Yoo  
+Email : yjung93@gmail.com " />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

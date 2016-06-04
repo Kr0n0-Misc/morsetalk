@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:autoLink="1" android:padding="20dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/settings_text" />
+    <LinearLayout android:gravity="10" android:id="@id/LinearLayout01" android:layout_width="-2" android:layout_height="-2">
+        <TextView android:layout_width="-2" android:layout_height="-2" android:text="@string/image_size_prompt" />
+        <Spinner android:entries="@array/image_sizes" android:id="@id/image_size" android:saveEnabled="true" android:layout_width="-1" android:layout_height="-2" android:prompt="@string/image_size_prompt" />
+    </LinearLayout>
+    <LinearLayout android:gravity="10" android:id="@id/LinearLayout01" android:layout_width="-2" android:layout_height="-2">
+        <TextView android:layout_width="-2" android:layout_height="-2" android:text="@string/camera_mode_prompt" />
+        <Spinner android:entries="@array/camera_mode" android:id="@id/camera_mode" android:saveEnabled="true" android:layout_width="-1" android:layout_height="-2" android:prompt="@string/camera_mode_prompt" />
+    </LinearLayout>
+    <LinearLayout android:gravity="10" android:id="@id/LinearLayout01" android:layout_width="-2" android:layout_height="-2">
+        <TextView android:layout_width="-2" android:layout_height="-2" android:text="@string/whitebalance_prompt" />
+        <Spinner android:entries="@array/whitebalance" android:id="@id/whitebalance" android:saveEnabled="true" android:layout_width="-1" android:layout_height="-2" android:prompt="@string/whitebalance_prompt" />
+    </LinearLayout>
+</LinearLayout>

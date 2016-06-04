@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="11" android:orientation="1" android:id="@id/MorseMainTopLayout" android:layout_width="-1" android:layout_height="-1"
+    <FrameLayout android:id="@id/preview" android:layout_width="-1" android:layout_height="-1" />
+    <LinearLayout android:gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:id="@id/Input_Message_Title" android:layout_width="-1" android:layout_height="-2" android:text="Enter Message ( English Only )" />
+        <EditText android:gravity="30" android:id="@id/editMessage" android:layout_width="-1" android:layout_height="-2" android:hint="Enter Message" />
+        <Button android:id="@id/startTransmit" android:layout_width="-1" android:layout_height="-2" android:text="Start Transmit" />
+        <TextView android:id="@id/ViewResult" android:layout_width="-1" android:layout_height="-2" />
+        <TextView android:id="@id/MorseCodeView" android:layout_width="-1" android:layout_height="-2" />
+    </LinearLayout>
+</FrameLayout>

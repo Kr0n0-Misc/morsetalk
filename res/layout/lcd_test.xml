@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <com.blueta.morsetransmitter.LcdBlinkView android:id="@id/lcdBlinkView" android:layout_width="-1" android:layout_height="-1" />
+    <Button android:id="@id/lcdOn" android:layout_width="-1" android:layout_height="-2" android:text="Lcd On" />
+</LinearLayout>

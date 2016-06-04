@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:orientation="1" android:id="@id/aboutscrollview" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+            <TextView android:textStyle="1" android:textColor="#ffffff" android:paddingLeft="15px" android:paddingTop="15px" android:layout_width="-1" android:layout_height="-2" android:text="How to use." />
+            <TextView android:textColor="#ffffffff" android:layout_gravity="10" android:paddingLeft="15px" android:layout_width="-1" android:layout_height="-2" android:text="- You can send and receive message in this mode
+
+- To interpret the morse code place the morse signal source inside of the blue cirle which is in the middle of display and then touch the start button.
+
+- To Send your message touch the send button and enter message
+
+- Received message is displayed in the red bar and transmitting message is displayed in the blue bar
+
+- If you touch the start button, the software will restart learning the pattern of receiving morse signal sequence.
+
+- If the characters interpreted is not correct, touch the start button again.
+
+- First a few characters would not be correct right after the start button touched until the software finish learning the signal pattern.
+
+- If morse signal that you want to interpret is too far or too small use zoom in button" />
+            <TextView android:textStyle="1" android:textColor="#ffffff" android:paddingLeft="15px" android:paddingTop="15px" android:layout_width="-1" android:layout_height="-2" android:text="Button Description" />
+            <TextView android:textColor="#ffffffff" android:layout_gravity="10" android:paddingLeft="15px" android:layout_width="-1" android:layout_height="-2" android:text="[Start]:
+It reset morse code decoding related parameters and restart morse code pattern learning algorithm.
+
+[Send]:
+You can enter your text and send them. This funciton is supported only in flash light mode.
+
+[+]: Zoom In.
+
+[-]: Zoom Out" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory android:title="Setting">
+        <CheckBoxPreference android:title="Repeat transmission" android:key="PREF_LOOP_TRANSMSSION_MODE" android:summary="Turn on repeating transmission mode" android:defaultValue="true" />
+        <CheckBoxPreference android:title="Use LED flash light" android:key="PREF_LED_FLASH_MODE" android:summary="Use LED flash light, otherwise use LCD 
+Some device may not support LED flash light" android:defaultValue="false" />
+        <CheckBoxPreference android:title="SOS Message Default" android:key="PREF_SOS_DEFAULT_SET" android:summary="Set SOS Message as default." android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>
